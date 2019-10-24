@@ -34,10 +34,11 @@ if choice == 1
 else
     puts "see you!"
 end
-puts "Now we will choose a random country for you"
+puts "Now we will choose a random country for you,
+press any key to continue"
 require 'io/console'                                                                                                       
 def continue_story                                                                                                               
-  print "press any key to continue"                                                                                                    
+                                                                                                   
   STDIN.getch                                                                                                              
   print "            \r" # extra space to overwrite in case next sentence is short                                                                                                              
 end  
