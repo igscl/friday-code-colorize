@@ -41,3 +41,7 @@ def continue_story
   STDIN.getch                                                                                                              
   print "            \r" # extra space to overwrite in case next sentence is short                                                                                                              
 end  
+continue_story
+@countries = ["Canada", "Denmark", "Germany", "Isle of Man", "Namibia", "Qatar", "South Africa",  "United Kingdom","United States"]
+random_country = @countries.sample
+puts "#{random_country}"
