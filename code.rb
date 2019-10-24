@@ -11,5 +11,26 @@ if choice == 1
 else
     puts "see you!"
 end
+puts "Hi again #{name}, what would you like
+to do now?\n
+    1. print the name of my favourite drink\n
+    2. exit\n
+    Please only use numbers"
+choice = gets.chomp.to_i
+if choice == 1
+    puts "lemon juice"
+else
+    puts "see you!"
+end
 
-
+puts "Hi again #{name}, what would you like
+to do now?\n
+    1. print the name of my favourite colour\n
+    2. exit\n
+    Please only use numbers"
+choice = gets.chomp.to_i
+if choice == 1
+    puts "light blue"
+else
+    puts "see you!"
+end
