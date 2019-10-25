@@ -47,3 +47,5 @@ continue_story
 @countries = ["Canada", "Denmark", "Germany", "Chile", "Namibia", "Qatar", "South Africa",  "United Kingdom","United States"]
 random_country = @countries.sample
 puts "#{random_country}".green
+
+#added comment
