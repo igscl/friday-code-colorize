@@ -31,7 +31,7 @@ to do now?\n
     Please only use numbers\n\n"
 choice = gets.chomp.to_i
 if choice == 1
-    puts "light blue \n \n" .blue
+    puts "light blue \n \n" .light_blue
 else
     puts "see you!"
 end
